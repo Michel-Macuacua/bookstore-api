@@ -72,6 +72,8 @@ public class Livro implements Serializable {
         this.categoria = categoria;
     }
 
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
