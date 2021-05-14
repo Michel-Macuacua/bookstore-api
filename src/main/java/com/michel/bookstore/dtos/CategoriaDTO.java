@@ -1,4 +1,4 @@
-package com.dtos;
+package com.michel.bookstore.dtos;
 
 import java.io.Serializable;
 
