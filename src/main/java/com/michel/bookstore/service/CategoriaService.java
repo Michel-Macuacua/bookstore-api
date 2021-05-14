@@ -1,5 +1,6 @@
 package com.michel.bookstore.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import com.michel.bookstore.domain.Categoria;
@@ -23,6 +24,10 @@ public class CategoriaService {
         Optional<Categoria> obj = repository.findById(id);
         return obj.orElseThrow(() -> new ObjectNotFoundException(
                 "Objecto nao encontrado! Id: " + id + ", Tipo: " + Categoria.class.getName()));
+    }
+
+    public List<Categoria> findAll(){
+        return repository.findAll();
     }
 
 }
