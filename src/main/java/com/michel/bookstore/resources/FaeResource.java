@@ -1,4 +1,4 @@
-package mz.gov.cedsif.datavalidapi.resources;
+package com.michel.bookstore.resources;
 
 
 import java.net.URI;
@@ -7,11 +7,10 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
-import mz.gov.cedsif.datavalidapi.domain.Fae;
-import mz.gov.cedsif.datavalidapi.domain.Fae;
+import com.michel.bookstore.domain.Fae;
 //import mz.gov.cedsif.datavalidapi.dtos.FaeDTO;
-import mz.gov.cedsif.datavalidapi.service.FaeService;
-import mz.gov.cedsif.datavalidapi.service.FaeService;
+import com.michel.bookstore.service.FaeService;
+import com.michel.bookstore.service.FaeService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
