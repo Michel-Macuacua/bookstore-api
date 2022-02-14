@@ -1,9 +1,9 @@
-package mz.gov.cedsif.datavalidapi.service;
+package com.michel.bookstore.service;
 
-import mz.gov.cedsif.datavalidapi.domain.Categoria;
-import mz.gov.cedsif.datavalidapi.domain.Fae;
-import mz.gov.cedsif.datavalidapi.repositories.FaeRepository;
-import mz.gov.cedsif.datavalidapi.service.exceptions.ObjectNotFoundException;
+import com.michel.bookstore.domain.Categoria;
+import com.michel.bookstore.domain.Fae;
+import com.michel.bookstore.repositories.FaeRepository;
+import com.michel.bookstore.service.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
