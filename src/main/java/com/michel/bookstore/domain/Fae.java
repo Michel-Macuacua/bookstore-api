@@ -26,7 +26,7 @@ public class Fae {
         this.dateOfBirth = dateOfBirth;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
