@@ -1,6 +1,6 @@
 package com.michel.bookstore.repositories;
 
-import mz.gov.cedsif.datavalidapi.domain.Fae;
+import com.michel.bookstore.domain.Fae;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
