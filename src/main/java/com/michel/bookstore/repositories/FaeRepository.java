@@ -1,4 +1,4 @@
-package com.michel.bookstore.domain;
+package com.michel.bookstore.repositories;
 
 import mz.gov.cedsif.datavalidapi.domain.Fae;
 import org.springframework.data.jpa.repository.JpaRepository;
