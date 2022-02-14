@@ -1,4 +1,4 @@
-package mz.gov.cedsif.datavalidapi.domain;
+package com.michel.bookstore.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
